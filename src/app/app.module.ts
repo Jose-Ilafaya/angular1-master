@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductosComponent } from './pages/productos/productos.component';
 import { CarritoComponent } from './pages/carrito/carrito.component';
+import { NotPageFoundComponent } from './pages/not-page-found/not-page-found.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CarritoComponent } from './pages/carrito/carrito.component';
     HomeComponent,
     FooterComponent,
     ProductosComponent,
-    CarritoComponent
+    CarritoComponent,
+    NotPageFoundComponent
   ],
   imports: [
     BrowserModule,
